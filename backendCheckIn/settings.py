@@ -103,7 +103,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'backendCheckIn.wsgi.application'
-FRONTEND_URL = 'https://vanman-zeta.vercel.app/'
+FRONTEND_URL = 'https://vanman-eight.vercel.app/'
 
 
 # Database

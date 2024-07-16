@@ -123,14 +123,13 @@ FRONTEND_URL = 'https://vanman.vercel.app'
 
 
 DATABASES = {
-    'default': {
-        #'ENGINE': 'django.db.backends.sqlite3',
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
+       'default' : {  
+        'ENGINE' : 'django.db.backends.postgresql',
+        'NAME' : 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'qkosEPxtSBBHNeUCdjMCKYDpFcZewvwa',
-        'HOST': 'viaduct.proxy.rlwy.net',
-        'PORT': '58954',
+        'HOST' :'roundhouse.proxy.rlwy.net',
+        'PASSWORD':'ukSjBICtIXsYdPNtMBJGboTVTQYjOycR',
+        'PORT': 59943,
     }
 }
 

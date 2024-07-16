@@ -103,7 +103,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'backendCheckIn.wsgi.application'
-FRONTEND_URL = 'https://vanman.vercel.app'
+FRONTEND_URL = 'https://vanman-zeta.vercel.app/'
 
 
 # Database
@@ -127,9 +127,9 @@ DATABASES = {
         'ENGINE' : 'django.db.backends.postgresql',
         'NAME' : 'railway',
         'USER': 'postgres',
-        'HOST' :'roundhouse.proxy.rlwy.net',
-        'PASSWORD':'ukSjBICtIXsYdPNtMBJGboTVTQYjOycR',
-        'PORT': 59943,
+        'HOST' :'monorail.proxy.rlwy.net',
+        'PASSWORD':'zqavVrmfqNPlncvERkUkmBjWwFJPDUtd',
+        'PORT': 48825,
     }
 }
 

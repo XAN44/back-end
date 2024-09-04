@@ -122,6 +122,16 @@ FRONTEND_URL = 'https://vanman-eight.vercel.app/'
 # }
 
 
+# DATABASES = {
+#        'default' : {  
+#         'ENGINE' : 'django.db.backends.postgresql',
+#         'NAME' : 'railway',
+#         'USER': 'postgres',
+#         'HOST' :'monorail.proxy.rlwy.net',
+#         'PASSWORD':'zqavVrmfqNPlncvERkUkmBjWwFJPDUtd',
+#         'PORT': 48825,
+#     }
+# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -132,6 +142,7 @@ DATABASES = {
         'PORT': '6543',
     }
 }
+
 
 
 # Password validation

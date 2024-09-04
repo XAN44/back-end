@@ -29,9 +29,10 @@ EMAIL_HOST_PASSWORD ='lzsrozrfuvqrkmlc'
 EMAIL_PORT = 587
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*', 'vanman-eight.vercel.app']
+ALLOWED_HOSTS = ['vanman-eight.vercel.app', 'localhost', '127.0.0.1']
+
 
 
 # Application definition
@@ -65,11 +66,10 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'backendCheckIn.urls'
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
-    "https://vanman-eight.vercel.app",
     "http://localhost:5173",
+    "https://vanman.vercel.app",
+    "https://vanman-eight.vercel.app"
 ]
-
-
 CORS_ALLOW_METHODS = [
     'DELETE',
     'GET',

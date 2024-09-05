@@ -137,6 +137,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',  # ชื่อฐานข้อมูล
         'USER': 'postgres.gwpuwxcbcmbtgpizckby',  # ชื่อผู้ใช้
+        'PASSWORD': '2BopUY6NmUtcjO90',  # รหัสผ่าน
         'HOST': 'aws-0-ap-southeast-1.pooler.supabase.com',  # โฮสต์ของฐานข้อมูล
         'PORT': '6543',  # พอร์ตที่ใช้เชื่อมต่อ
     }

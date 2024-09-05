@@ -65,7 +65,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'backendCheckIn.urls'
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
-"http://localhost:5173","https://vanman-eight.vercel.app","https://vanman.vercel.app"
+"http://localhost:5173","https://vanman.vercel.app"
 ]
 CORS_ALLOW_METHODS = [
     'DELETE',
@@ -103,7 +103,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'backendCheckIn.wsgi.application'
-FRONTEND_URL = 'https://vanman-eight.vercel.app/'
+FRONTEND_URL = "https://vanman.vercel.app"
 
 
 # Database
@@ -121,6 +121,16 @@ FRONTEND_URL = 'https://vanman-eight.vercel.app/'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'railway',  # ชื่อฐานข้อมูล
+#         'USER': 'postgres',  # ชื่อผู้ใช้
+#         'PASSWORD': 'SzvXzztNkQQAyktCyogBMLhHmxcoOSjo',  # รหัสผ่าน
+#         'HOST': 'meticulous-empathy.railway.internal',  # โฮสต์ของฐานข้อมูล
+#         'PORT': '5432',  # พอร์ตที่ใช้เชื่อมต่อ
+#     }
+# }
 
 DATABASES = {
     'default': {

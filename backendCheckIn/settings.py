@@ -128,13 +128,13 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'SzvXzztNkQQAyktCyogBMLhHmxcoOSjo',
-        'HOST': 'junction.proxy.rlwy.net',
-        'PORT': '38502',
+        'PASSWORD': 'YAgVVGHIlSgFRKDLrAUGRVYnfyFWgRrf',
+        'HOST': 'autorack.proxy.rlwy.net',
+        'PORT': '20564',  # ตรวจสอบพอร์ตที่ใช้งาน
     }
 }
 
-# TODO Supabase In railway
+ # TODO Supabase In railway
 
 # DATABASES = {
 #     'default': {

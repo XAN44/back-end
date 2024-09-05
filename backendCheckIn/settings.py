@@ -121,27 +121,26 @@ FRONTEND_URL = "https://vanman.vercel.app"
 #     }
 # }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'railway',  # ชื่อฐานข้อมูล
-#         'USER': 'postgres',  # ชื่อผู้ใช้
-#         'PASSWORD': 'SzvXzztNkQQAyktCyogBMLhHmxcoOSjo',  # รหัสผ่าน
-#         'HOST': 'meticulous-empathy.railway.internal',  # โฮสต์ของฐานข้อมูล
-#         'PORT': '5432',  # พอร์ตที่ใช้เชื่อมต่อ
-#     }
-# }
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',  # ชื่อฐานข้อมูล
-        'USER': 'postgres.gwpuwxcbcmbtgpizckby',  # ชื่อผู้ใช้
-        'PASSWORD': '2BopUY6NmUtcjO90',  # รหัสผ่าน
-        'HOST': 'aws-0-ap-southeast-1.pooler.supabase.com',  # โฮสต์ของฐานข้อมูล
-        'PORT': '6543',  # พอร์ตที่ใช้เชื่อมต่อ
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'SzvXzztNkQQAyktCyogBMLhHmxcoOSjo',
+        'HOST': 'junction.proxy.rlwy.net',
+        'PORT': '38502',
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'postgres',  # ชื่อฐานข้อมูล
+#         'USER': 'postgres.gwpuwxcbcmbtgpizckby',  # ชื่อผู้ใช้
+#         'PASSWORD': '2BopUY6NmUtcjO90',  # รหัสผ่าน
+#         'HOST': 'aws-0-ap-southeast-1.pooler.supabase.com',  # โฮสต์ของฐานข้อมูล
+#         'PORT': '6543',  # พอร์ตที่ใช้เชื่อมต่อ
+#     }
+# }
 
 
 # Password validation
